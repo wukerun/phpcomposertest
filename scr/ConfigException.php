@@ -2,7 +2,7 @@
 
 namespace Yzh\Exception;
 
-class ConfigException extends BaseException
+class ConfigException
 {
     public function __construct($message = "", $code = 0)
     {
@@ -10,6 +10,6 @@ class ConfigException extends BaseException
         if (!empty($message)) {
             $msg .= ": " . $message;
         }
-        parent::__construct((string) $msg, (int) $code);
+       
     }
 }
