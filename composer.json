@@ -2,7 +2,7 @@
     "name": "wukerunphptest/wukerunphptest",
     "type": "library",
     "description": "发布测试发布测试发布测试",
-    "keywords": ["framework", "http", "rest", "web service", "curl", "client", "HTTP client"],//在composer搜索用到
+    "keywords": ["framework", "http", "rest", "web service", "curl", "client", "HTTP client"],
     "license": "MIT",
     "authors": [
         {
