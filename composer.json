@@ -1,0 +1,23 @@
+{
+    "name": "wukerunphptest/wukerunphptest",
+    "type": "library",
+    "description": "发布测试发布测试发布测试",
+    "keywords": ["framework", "http", "rest", "web service", "curl", "client", "HTTP client"],//在composer搜索用到
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wukerun",
+            "email": "username@example.com",
+            "homepage": "https://github.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5"
+    },
+    "autoload": {
+            "files": ["src/functions_include.php"],
+            "psr-4": {
+               "GuzzleHttp\\": "src/"
+            }
+    }
+}
