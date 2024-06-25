@@ -1,6 +1,6 @@
 <?php
 
-namespace Yzh\Utils;
+namespace Wukerun;
 
 class MessString
 {
